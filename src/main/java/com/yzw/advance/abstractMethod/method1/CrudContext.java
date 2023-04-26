@@ -7,6 +7,9 @@ import javax.annotation.Resource;
 import java.util.LinkedHashMap;
 import java.util.List;
 
+/**
+ * 通过策略模式进行对不同操作类型进行执行
+ */
 @Component
 public class CrudContext {
     @Resource

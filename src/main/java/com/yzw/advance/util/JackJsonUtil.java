@@ -48,7 +48,7 @@ public class JackJsonUtil {
      * @Description 把Object转json字符串
      * @version
      */
-    public static String objectToJson(Object obj) {
+    public static String toJson(Object obj) {
         try {
             return getMapper().writeValueAsString(obj);
         } catch (JsonProcessingException e) {
